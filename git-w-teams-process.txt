@@ -1,0 +1,41 @@
+FEATURE BRANCH WITH TEAMS
+Step 1:
+ Repo Owner:
+   -create local repo
+   -get inital commit in
+ Everyone Else:
+   -fork after initial commit
+ *dont forget .gitignore
+Step 2:
+ Everyone Else:
+   -clone down
+   -add upstream remote that points to repo owners GH repo
+ Repo Owner:
+   -Add at least 1 other person as contributor to repo
+Step 3:
+ Repo Owner:
+   -Checkout branch and do work
+ Everyone Else:
+   -Checkout branch and do work
+Step 4:
+ Repo Owner:
+   -Push local branch to repo
+ Everyone Else:
+   -Push local branch to repo
+Step 5:
+ Repo Owner:
+   -Submit pull request to master
+ Everyone Else:
+   -Submit pull request to upstream repo
+Step 6:
+ Repo Owner:
+   -Merge pull requests
+   -Fetch/Merge || Pull to local master & branch you're currently working on
+ Everyone Else:
+   -Fetch/Merge || Pull to local master & branch you're currently working on
+   -Don't forget to occasionally push to GH origin master
+Step 7:
+ Repo Owner:
+   -Repeat steps 3-6
+ Everyone Else:
+   -Repeat steps 3-6
